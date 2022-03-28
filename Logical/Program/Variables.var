@@ -1,0 +1,4 @@
+VAR
+	EVRID : DRIVE;
+	speed : INT;
+END_VAR
