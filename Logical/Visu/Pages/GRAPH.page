@@ -48,9 +48,26 @@
           <Property Name="Height" Value="163"/>
           <Property Name="Left" Value="5"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Trend]"/>
-          <Property Name="Top" Value="31"/>
-          <Property Name="TrendConfig" Value="Source[local].Trend[Trend_4]"/>
+          <Property Name="Top" Value="29"/>
+          <Property Name="TrendConfig" Value="Source[local].Trend[Trend_1]"/>
           <Property Name="Width" Value="309"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="30"/>
+          <Property Name="Left" Value="10"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="158"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.real_speed]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="60"/>
         </Control>
       </Controls>
       <KeyMapping/>
@@ -59,5 +76,6 @@
   <MovementOrder/>
   <TabSequence>
     <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Trend_1]"/>
+    <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
   </TabSequence>
 </Page>

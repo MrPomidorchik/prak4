@@ -7,4 +7,5 @@ VAR
 	ON_OFF : BOOL;
 	led1 : ARRAY[0..3] OF BOOL;
 	led : ARRAY[0..3] OF BOOL;
+	real_speed : INT;
 END_VAR

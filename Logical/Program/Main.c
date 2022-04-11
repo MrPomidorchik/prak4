@@ -8,6 +8,7 @@
 void _INIT ProgramInit(void)
 {
 	speed = 0;
+	real_speed=0;
 }
 
 void _CYCLIC ProgramCyclic(void)

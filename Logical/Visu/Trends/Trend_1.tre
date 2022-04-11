@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?AutomationStudio Version="4.5.2.102"?>
-<Trend xmlns="http://br-automation.co.at/AS/VC/Project" Name="Trend_4">
+<Trend xmlns="http://br-automation.co.at/AS/VC/Project" Name="Trend_1">
   <Property Name="BackColor" Value="9"/>
   <Property Name="Cursor1" Value="False"/>
   <Property Name="Cursor2" Value="False"/>
@@ -47,29 +47,29 @@
       <Property Name="Cursor2TimeDatapoint" Value="None"/>
       <Property Name="Description" Value=""/>
       <Property Name="LabelPosition" Value="Auto"/>
-      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_4].Control[TrendScaleContainer_1]"/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_1].Control[TrendScaleContainer_1]"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TrendTimeContainer]"/>
       <Property Name="TextSource" Value="None"/>
     </Control>
     <Control ClassId="0x00001017" Name="TrendValueScale_1">
       <Property Name="BackColor" Value="16"/>
       <Property Name="Description" Value=""/>
-      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_4].Control[TrendScaleContainer_2]"/>
+      <Property Name="ScaleContainer" Value="Source[local].Trend[Trend_1].Control[TrendScaleContainer_2]"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TrendValueScale]"/>
     </Control>
-    <Control ClassId="0x00001016" Name="TrendData_4_Curve">
+    <Control ClassId="0x00001016" Name="TrendData_13_Curve">
       <Property Name="Cursor1ValueDatapoint" Value="None"/>
       <Property Name="Cursor2ValueDatapoint" Value="None"/>
       <Property Name="Description" Value=""/>
       <Property Name="ForeColor" Value="0"/>
       <Property Name="Height" Value="360"/>
-      <Property Name="HorizontalScale" Value="Source[local].Trend[Trend_4].Control[TrendTimeScale_1]"/>
+      <Property Name="HorizontalScale" Value="Source[local].Trend[Trend_1].Control[TrendTimeScale_1]"/>
       <Property Name="Left" Value="332"/>
       <Property Name="MarkerType" Value="None"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[TrendCurve]"/>
       <Property Name="Top" Value="204"/>
-      <Property Name="TrendData" Value="Source[local].TrendData[TrendData_4]"/>
-      <Property Name="VerticalScale" Value="Source[local].Trend[Trend_4].Control[TrendValueScale_1]"/>
+      <Property Name="TrendData" Value="Source[local].TrendData[TrendData_13]"/>
+      <Property Name="VerticalScale" Value="Source[local].Trend[Trend_1].Control[TrendValueScale_1]"/>
       <Property Name="Width" Value="360"/>
       <Property Name="ZoomDisplayMode" Value="Average"/>
     </Control>

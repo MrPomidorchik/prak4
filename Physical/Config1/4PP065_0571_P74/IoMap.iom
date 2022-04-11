@@ -17,4 +17,5 @@ VAR_CONFIG
 	::led[1] AT %QX."X20DO9322".DigitalOutput03;
 	::led[2] AT %QX."X20DO9322".DigitalOutput04;
 	::led[3] AT %QX."X20DO9322".DigitalOutput05;
+	::real_speed AT %IW."8I64xxxxxxx.00x-1".RFRD_Input;
 END_VAR
